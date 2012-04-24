@@ -23,148 +23,139 @@
   </head>
 
   <body>
-    <div style="padding:3em 20px;">
 
-      <header id="masthead">
-        <h1>
-          License &amp; register your 
-          <span class="ir bicycle">bicycle</span>
-          <span class="location">
-            in
-            <span class="city">Santa Cruz, CA</span>.
-          </span>
-        </h1>
-      </header>
-      
-      <div id="explanation">
-        <p>
-          Licensing your bicycle is <strong>free</strong> and <strong>required</strong> by the city of Santa Cruz<sup><a href="#footnote-1">1</a></sup>.
-        </p>
-        <p>
-          Registering your bicycle with the Santa Cruz Police Department increases the likelihood of recovering it if it's ever stolen.
-        </p>
-        <p>
-          Fill out this form to do both.
-        </p>
-      </div>
-      
-      <form id="registration" method="post" action="">
-        
-        <fieldset>
-          <h3>First, The Owner.</h3>
-          <p>If your bicycle is stolen and recovered, this is how the police will contact you.</p>
-          <div class="control-group">
-            <label class="control-label" for="owner-name">Full Name</label>
-            <div class="controls">
-              <input type="text" id="owner" placeholder="Jane Doe">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group">
-            <label class="control-label" for="owner-street">Street Address</label>
-            <div class="controls">
-              <input type="text" id="owner-street" placeholder="Street Address">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group">
-            <label class="control-label" for="owner-city">City</label>
-            <div class="controls">
-              <input type="text" id="owner-city" placeholder="City">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group">
-            <label class="control-label" for="owner-street">ZIP Code</label>
-            <div class="controls">
-              <input type="text" id="owner-zip" placeholder="ZIP Code">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group">
-            <label class="control-label" for="owner-phone">Phone</label>
-            <div class="controls">
-              <input type="text" id="owner-phone" placeholder="(###) ###-####">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group">
-            <label class="control-label" for="owner-phone">Email</label>
-            <div class="controls">
-              <input type="text" id="owner-phone" placeholder="you@domain.com">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-        </fieldset>
-        
-        <fieldset>
-          <h3>Next, The Bicycle.</h3>
-          <p>If you're not sure about any of this information, ask your bike mechanic.</p>
-          <div class="control-group" class="required">
-            <label class="control-label" for="bike-serial">Serial #</label>
-            <div class="controls">
-              <input type="text" id="serial">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group" class="required">
-            <label class="control-label" for="bike-manufacturer">Manufacturer</label>
-            <div class="controls">
-              <input type="text" id="manufacturer" placeholder="">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group" class="required">
-            <label class="control-label" for="bike-model">Model</label>
-            <div class="controls">
-              <input type="text" id="model" placeholder="">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group">
-            <label class="control-label" for="bike-year">Model Year</label>
-            <div class="controls">
-              <input type="text" id="year" placeholder="">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group">
-            <label class="control-label" for="bike-color">Color</label>
-            <div class="controls">
-              <input type="text" id="color" placeholder="">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group" class="required">
-            <label class="control-label" for="bike-framesize">Frame Size</label>
-            <div class="controls">
-              <input type="text" id="bike-framesize" placeholder='e.g. 50"'>
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-          <div class="control-group" class="required">
-            <label class="control-label" for="bike-wheelsize">Wheel Size</label>
-            <div class="controls">
-              <input type="text" id="bike-wheelsize" placeholder='e.g. 700c'>
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-<!--      <div class="control-group">
-            <label class="control-label" for="bike-photo">Photo</label>
-            <div class="controls">
-              <input class="input-file" id="bike-photo" type="file" style="width:80px !important;">
-            </div><!-- /.controls --
-          </div><!-- /.control-group -->
-        </fieldset>
-        
-        <fieldset>
-          <h3>Finally, The License.</h3>
-          <p>Grab the sticker and affix it to the front of the seat tube<sup><a href="#footnote-2">2</a></sup>. The license is valid for three years.</p>
-          <div class="control-group">
-            <label class="control-label" for="bike-license">License #</label>
-            <div class="controls">
-              <input type="text" id="bike-license" placeholder="">
-            </div><!-- /.controls -->
-          </div><!-- /.control-group -->
-        </fieldset>
-        
-        <div style="text-align:center;"><button type="submit" class="btn btn-primary">Register This Bike</button></div>
-        
-      </form>
-      
-      <footer>
-        <p><sup id="footnote-1">1</sup> <a href="http://www.codepublishing.com/CA/SantaCruz/?SantaCruz10/SantaCruz1068.html">City of Santa Cruz Municipal Code 10.68</a></p>
-        <p><sup id="footnote-2">2</sup> <a href="http://www.dmv.ca.gov/pubs/vctop/d16_7/vc39001.htm">California Vehicle Code Section 39001</a></p>
-      </footer>
+    <header id="masthead">
+      <h1>
+        License &amp; register your 
+        <span class="ir bicycle">bicycle</span>
+        <span class="location">
+          in
+          <span class="city">Santa Cruz, CA</span>.
+        </span>
+      </h1>
+    </header>
     
-    </div> <!-- /.container -->
+    <div id="explanation">
+      <p>
+        Licensing your bicycle is <strong>free</strong> and <strong>required</strong> by the city of Santa Cruz<sup><a href="#footnote-1">1</a></sup>.
+      </p>
+      <p>
+        Registering your bicycle with the Santa Cruz Police Department increases the likelihood of recovering it if it's ever stolen.
+      </p>
+      <p>
+        Fill out this form to do both.
+      </p>
+    </div>
+    
+    <form id="registration" method="post" action="">
+      
+      <fieldset>
+        <h3>First, The Owner.</h3>
+        <p>If your bicycle is stolen and recovered, this is how the police will contact you.</p>
+        <div class="control-group">
+          <label class="control-label" for="owner-name">Full Name</label>
+          <div class="controls">
+            <input type="text" id="owner" placeholder="Jane Doe">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group">
+          <label class="control-label" for="owner-street">Street Address</label>
+          <div class="controls">
+            <input type="text" id="owner-street" placeholder="Street Address">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group">
+          <label class="control-label" for="owner-city">City</label>
+          <div class="controls">
+            <input type="text" id="owner-city" placeholder="City">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group">
+          <label class="control-label" for="owner-street">ZIP Code</label>
+          <div class="controls">
+            <input type="text" id="owner-zip" placeholder="ZIP Code">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group">
+          <label class="control-label" for="owner-phone">Phone</label>
+          <div class="controls">
+            <input type="text" id="owner-phone" placeholder="(###) ###-####">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group">
+          <label class="control-label" for="owner-phone">Email</label>
+          <div class="controls">
+            <input type="text" id="owner-phone" placeholder="you@domain.com">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+      </fieldset>
+      
+      <fieldset>
+        <h3>Next, The Bicycle.</h3>
+        <p>If you're not sure about any of this information, ask your bike mechanic.</p>
+        <div class="control-group" class="required">
+          <label class="control-label" for="bike-serial">Serial #</label>
+          <div class="controls">
+            <input type="text" id="serial">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group" class="required">
+          <label class="control-label" for="bike-manufacturer">Manufacturer</label>
+          <div class="controls">
+            <input type="text" id="manufacturer" placeholder="">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group" class="required">
+          <label class="control-label" for="bike-model">Model</label>
+          <div class="controls">
+            <input type="text" id="model" placeholder="">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group">
+          <label class="control-label" for="bike-year">Model Year</label>
+          <div class="controls">
+            <input type="text" id="year" placeholder="">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group">
+          <label class="control-label" for="bike-color">Color</label>
+          <div class="controls">
+            <input type="text" id="color" placeholder="">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group" class="required">
+          <label class="control-label" for="bike-framesize">Frame Size</label>
+          <div class="controls">
+            <input type="text" id="bike-framesize" placeholder='e.g. 50"'>
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+        <div class="control-group" class="required">
+          <label class="control-label" for="bike-wheelsize">Wheel Size</label>
+          <div class="controls">
+            <input type="text" id="bike-wheelsize" placeholder='e.g. 700c'>
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+      </fieldset>
+      
+      <fieldset>
+        <h3>Finally, The License.</h3>
+        <p>Grab the sticker and affix it to the front of the seat tube<sup><a href="#footnote-2">2</a></sup>. The license is valid for three years.</p>
+        <div class="control-group">
+          <label class="control-label" for="bike-license">License #</label>
+          <div class="controls">
+            <input type="text" id="bike-license" placeholder="">
+          </div><!-- /.controls -->
+        </div><!-- /.control-group -->
+      </fieldset>
+      
+      <div style="text-align:center;"><button type="submit" class="btn btn-primary">Register This Bike</button></div>
+      
+    </form>
+    
+    <footer id="footer">
+      <p><sup id="footnote-1">1</sup> <a href="http://www.codepublishing.com/CA/SantaCruz/?SantaCruz10/SantaCruz1068.html">City of Santa Cruz Municipal Code 10.68</a></p>
+      <p><sup id="footnote-2">2</sup> <a href="http://www.dmv.ca.gov/pubs/vctop/d16_7/vc39001.htm">California Vehicle Code Section 39001</a></p>
+    </footer>
 
     <!-- Google Analytics -->
     <script>
